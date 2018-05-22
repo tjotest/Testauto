@@ -69,7 +69,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 		capname="form"
 		id="d844fd5c-6366-4513-ad30-50f4a59f9547"
 		isrooted="True"
-		name="MainForm"
+		name="MainFormX"
 		refpath="/form[@controlname='MainForm']"
 		searchtimeout="30000ms"
 		usecache="True">

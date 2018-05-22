@@ -100,8 +100,8 @@ namespace KeepassUnik
             repo.KeyPromptForm.MBtnOK.Click("41;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='NewDatabase.kdbx - KeePass Password Safe') on item 'MainForm.NewDatabaseKdbxKeePassPasswordSafe'.", repo.MainForm.NewDatabaseKdbxKeePassPasswordSafeInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.MainForm.NewDatabaseKdbxKeePassPasswordSafeInfo, "Text", "NewDatabase.kdbx - KeePass Password Safe");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='NewDatabase.kdbx - KeePass Password Safe') on item 'MainFormX.NewDatabaseKdbxKeePassPasswordSafe'.", repo.MainFormX.NewDatabaseKdbxKeePassPasswordSafeInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.MainFormX.NewDatabaseKdbxKeePassPasswordSafeInfo, "Text", "NewDatabase.kdbx - KeePass Password Safe");
             Delay.Milliseconds(100);
             
         }

@@ -89,8 +89,8 @@ namespace KeepassUnik
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainForm.MTvGroups.MenuNavn' at 25;5.", repo.MainForm.MTvGroups.MenuNavnInfo, new RecordItemIndex(0));
-            repo.MainForm.MTvGroups.MenuNavn.Click("25;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainFormX.MTvGroups.MenuNavn' at 25;5.", repo.MainFormX.MTvGroups.MenuNavnInfo, new RecordItemIndex(0));
+            repo.MainFormX.MTvGroups.MenuNavn.Click("25;5");
             Delay.Milliseconds(200);
             
         }

@@ -28,7 +28,7 @@ namespace KeepassUnik
     {
         static KeepassUnikRepository instance = new KeepassUnikRepository();
         KeepassUnikRepositoryFolders.KeyPromptFormAppFolder _keypromptform;
-        KeepassUnikRepositoryFolders.MainFormAppFolder _mainform;
+        KeepassUnikRepositoryFolders.MainFormXAppFolder _mainformx;
 
         /// <summary>
         /// Gets the singleton class instance representing the KeepassUnikRepository element repository.
@@ -46,7 +46,7 @@ namespace KeepassUnik
             : base("KeepassUnikRepository", "/", null, 0, false, "9dd8e404-4a8f-49e4-ab79-02b042a3b3ad", ".\\RepositoryImages\\KeepassUnikRepository9dd8e404.rximgres")
         {
             _keypromptform = new KeepassUnikRepositoryFolders.KeyPromptFormAppFolder(this);
-            _mainform = new KeepassUnikRepositoryFolders.MainFormAppFolder(this);
+            _mainformx = new KeepassUnikRepositoryFolders.MainFormXAppFolder(this);
         }
 
 #region Variables
@@ -87,12 +87,12 @@ namespace KeepassUnik
         }
 
         /// <summary>
-        /// The MainForm folder.
+        /// The MainFormX folder.
         /// </summary>
         [RepositoryFolder("d844fd5c-6366-4513-ad30-50f4a59f9547")]
-        public virtual KeepassUnikRepositoryFolders.MainFormAppFolder MainForm
+        public virtual KeepassUnikRepositoryFolders.MainFormXAppFolder MainFormX
         {
-            get { return _mainform; }
+            get { return _mainformx; }
         }
     }
 
@@ -195,19 +195,19 @@ namespace KeepassUnik
         }
 
         /// <summary>
-        /// The MainFormAppFolder folder.
+        /// The MainFormXAppFolder folder.
         /// </summary>
         [RepositoryFolder("d844fd5c-6366-4513-ad30-50f4a59f9547")]
-        public partial class MainFormAppFolder : RepoGenBaseFolder
+        public partial class MainFormXAppFolder : RepoGenBaseFolder
         {
             KeepassUnikRepositoryFolders.MTvGroupsFolder _mtvgroups;
             RepoItemInfo _newdatabasekdbxkeepasspasswordsafeInfo;
 
             /// <summary>
-            /// Creates a new MainForm  folder.
+            /// Creates a new MainFormX  folder.
             /// </summary>
-            public MainFormAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("MainForm", "/form[@controlname='MainForm']", parentFolder, 30000, null, true, "d844fd5c-6366-4513-ad30-50f4a59f9547", "")
+            public MainFormXAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MainFormX", "/form[@controlname='MainForm']", parentFolder, 30000, null, true, "d844fd5c-6366-4513-ad30-50f4a59f9547", "")
             {
                 _mtvgroups = new KeepassUnikRepositoryFolders.MTvGroupsFolder(this);
                 _newdatabasekdbxkeepasspasswordsafeInfo = new RepoItemInfo(this, "NewDatabaseKdbxKeePassPasswordSafe", "titlebar[@accessiblerole='TitleBar']", 30000, null, "4e998767-ecd1-4162-8db6-ed15b24ae472");
