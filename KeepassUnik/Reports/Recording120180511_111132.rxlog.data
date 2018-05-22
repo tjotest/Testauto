@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a8d5ed7f1607cba"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tjo"
+		rxversion="8.1.1.0"
+		host="TH297"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="da-DK"
+		dtnlanguage="da-DK"
+		screenresolution="6400x1440"
+		timestamp="11-05-2018 11:11:37"
+		timestampiso="2018-05-11T09:11:37"
+		endtime="11-05-2018 11:11:47"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.301"
+			timeRelativeToTestModuleStartTime="00:01.303"
+			timeWallClock="11:11:38"
+			time="00:01.301"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\KeePass\KeePass.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.411"
+			timeRelativeToTestModuleStartTime="00:01.413"
+			timeWallClock="11:11:38"
+			time="00:01.411"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'rx' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				itempath="?/?/text[@accessiblerole='Text']"
+				fullname="KeepassUnikRepository.KeyPromptForm.Text"
+				id="8fc224a4e750431ba81f426a011f46bb"
+				timeout="60000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.826"
+			timeRelativeToTestModuleStartTime="00:03.827"
+			timeWallClock="11:11:41"
+			time="00:03.826"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MBtnOK' at 41;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+				itempath="button[@controlname='m_btnOK']"
+				fullname="KeepassUnikRepository.KeyPromptForm.MBtnOK"
+				id="7de19fe0ac3f4e98aba81ba57f1c16cd"
+				timeout="60000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.664"
+			timeRelativeToTestModuleStartTime="00:04.665"
+			timeWallClock="11:11:42"
+			time="00:04.664"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='NewDatabase.kdbx - KeePass Password Safe') on item 'MainForm.NewDatabaseKdbxKeePassPasswordSafe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="KeepassUnikRepository.MainForm.NewDatabaseKdbxKeePassPasswordSafe"
+				id="4e998767ecd141628db6ed15b24ae472"
+				timeout="60000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.982"
+			timeRelativeToTestModuleStartTime="00:04.983"
+			timeWallClock="11:11:42"
+			time="00:04.982"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'KeepassUnikRepository.MainForm.NewDatabaseKdbxKeePassPasswordSafe' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="KeepassUnikRepository.MainForm.NewDatabaseKdbxKeePassPasswordSafe"
+				id="4e998767ecd141628db6ed15b24ae472"
+				timeout="60000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.099"
+			timeRelativeToTestModuleStartTime="00:05.100"
+			timeWallClock="11:11:42"
+			time="00:05.099"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.MTvGroups.General' at 25;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='General']"
+				itempath="?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='General']"
+				fullname="KeepassUnikRepository.MainForm.MTvGroups.General"
+				id="9da1cc1d118f4f309fa87f0476e96f13"
+				timeout="90000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.160"
+			timeRelativeToTestModuleStartTime="00:06.161"
+			timeWallClock="11:11:43"
+			time="00:06.160"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.MTvGroups.Windows' at 23;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Windows']"
+				itempath="?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Windows']"
+				fullname="KeepassUnikRepository.MainForm.MTvGroups.Windows"
+				id="3f2e58a360ba4b348858d010161446c7"
+				timeout="90000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.169"
+			timeRelativeToTestModuleStartTime="00:07.170"
+			timeWallClock="11:11:44"
+			time="00:07.169"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.MTvGroups.Network' at 22;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Network']"
+				itempath="?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Network']"
+				fullname="KeepassUnikRepository.MainForm.MTvGroups.Network"
+				id="4cf528cd852345e28308c0a60278ee07"
+				timeout="90000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.184"
+			timeRelativeToTestModuleStartTime="00:08.185"
+			timeWallClock="11:11:45"
+			time="00:08.184"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.MTvGroups.Internet' at 22;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Internet']"
+				itempath="?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='Internet']"
+				fullname="KeepassUnikRepository.MainForm.MTvGroups.Internet"
+				id="e7a04aee42064433961df5b2164685f1"
+				timeout="90000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.187"
+			timeRelativeToTestModuleStartTime="00:09.188"
+			timeWallClock="11:11:46"
+			time="00:09.187"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.MTvGroups.EMail' at 22;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='eMail']"
+				itempath="?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='eMail']"
+				fullname="KeepassUnikRepository.MainForm.MTvGroups.EMail"
+				id="393bcbb5f01a4fc586482407676aeecd"
+				timeout="90000"
+				codefile="C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
