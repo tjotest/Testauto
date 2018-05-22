@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="08a1daa5-c0da-4a99-9221-e57a7bf44f1d"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		StartSUT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartSUT"
+	namespace="KeepassUnik">
+	</codegen>
+	<variables>
+		<var
+		id="a57af48d-2555-4132-a4c0-8a868da5a1e4"
+		name="varExP">
+			C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\KeePass\KeePass.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="varExP">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\KeePass\KeePass.exe
+			</filename>
+			<workingdir>
+				C:\Users\tjo\Documents\Ranorex\RanorexStudio Projects\KeepassUnik\KeepassUnik\KeePass
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="11f62b71-76c4-475b-9fed-2db79bdce623"
+	name="KeepassUnikRepository"
+	relativepath="KeepassUnikRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="KeepassUnikRepository"
+		namespace="KeepassUnik">
+		</codegen>
+		<rootfolder
+		id="9dd8e404-4a8f-49e4-ab79-02b042a3b3ad"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartSUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1085f929-265b-4d00-a74b-6848f65760cd"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="KeepassUnik">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="11f62b71-76c4-475b-9fed-2db79bdce623"
+	name="KeepassUnikRepository"
+	relativepath="KeepassUnikRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="KeepassUnikRepository"
+		namespace="KeepassUnik">
+		</codegen>
+		<rootfolder
+		id="9dd8e404-4a8f-49e4-ab79-02b042a3b3ad"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
